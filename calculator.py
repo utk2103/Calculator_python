@@ -9,7 +9,7 @@ def get_digit(digit):
 
 def clear():
     result_label.config(text='')
-
+# function for operators
 def get_operator(op):
     global first_number,operator
 
