@@ -1,6 +1,7 @@
 from tkinter import *
 
 first_number = second_number =operator =None
+
 # function for all digits
 def get_digit(digit):
     current = result_label['text']
@@ -9,6 +10,7 @@ def get_digit(digit):
 
 def clear():
     result_label.config(text='')
+
 # function for operators
 def get_operator(op):
     global first_number,operator
