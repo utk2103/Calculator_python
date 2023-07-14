@@ -1,7 +1,7 @@
 from tkinter import *
 
 first_number = second_number =operator =None
-
+# function for all digits
 def get_digit(digit):
     current = result_label['text']
     new = current + str(digit)
