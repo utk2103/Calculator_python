@@ -8,6 +8,7 @@ def get_digit(digit):
     new = current + str(digit)
     result_label.config(text=new)
 
+# To clear the screen for next number
 def clear():
     result_label.config(text='')
 
@@ -19,6 +20,7 @@ def get_operator(op):
     operator =op
     result_label.config(text='')  
 
+# function for getting result
 def get_result():
     global first_number,second_number,operator
 
